@@ -86,6 +86,7 @@ def initTool():
         system_message=TOOL_AGENT_MESSAGE,
         name="Tool",
         human_input_mode="NEVER",
+        default_auto_reply="I am a tool agent. i can only be called by the assistant agent in executing tools.",
         max_consecutive_auto_reply=1,
         is_termination_msg=lambda x: x.get("content", "")
         .rstrip()
@@ -208,13 +209,13 @@ def ask_question(question: str, history: list[Dict] = []) -> autogen.ChatResult:
     chat_result = user_agent.initiate_chat(
         manager,
         message=question,
-        silent=False,
+        silent=True,
         
         summary_method="reflection_with_llm",
         summary_args={
             "summary_prompt": SUMMARY_AGENT_MESSAGE,
         },
-        max_turns=10,
+        max_turns=2,
     )
     return chat_result
 
