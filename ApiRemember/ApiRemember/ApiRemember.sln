@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{9C244714-F87F-415B-9620-9CBA69218CB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repo", "Repo\Repo.csproj", "{3CFD8074-C9C3-4FFE-BE2F-4A50056B5704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{8308DD4C-271D-43BC-8B0E-E79997CEFE0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C244714-F87F-415B-9620-9CBA69218CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C244714-F87F-415B-9620-9CBA69218CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C244714-F87F-415B-9620-9CBA69218CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C244714-F87F-415B-9620-9CBA69218CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CFD8074-C9C3-4FFE-BE2F-4A50056B5704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFD8074-C9C3-4FFE-BE2F-4A50056B5704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFD8074-C9C3-4FFE-BE2F-4A50056B5704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFD8074-C9C3-4FFE-BE2F-4A50056B5704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8308DD4C-271D-43BC-8B0E-E79997CEFE0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8308DD4C-271D-43BC-8B0E-E79997CEFE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8308DD4C-271D-43BC-8B0E-E79997CEFE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8308DD4C-271D-43BC-8B0E-E79997CEFE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A86D5D6-D904-4F92-8A28-8C18F97AA54A}
+	EndGlobalSection
+EndGlobal
