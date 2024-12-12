@@ -21,6 +21,10 @@ To run this project, you are required to have Docker and pip installed on your P
    - The model used during development is `vosk-model-en-us-0.22`.
    - Unpack the downloaded file in the root folder of the project.
 
+4. **ollama model setup**:
+   - download ollama from [this link](https://ollama.com/).
+   - after installation. run "ollama run llama3.2:latest"
+
 ## Running the Application
 
 The entry point of the program is `summaryAgent.py`. To run the application, use the following command:
